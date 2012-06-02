@@ -13,3 +13,5 @@ mvn appfuse:copy-templates
 cd src/test/resources/appfuse/model/
 sed -i -e "s/generateJoinColumnsAnnotation(property/generateJoinColumnsAnnotation(property,cfg/" Ejb3PropertyGetAnnotation.ftl 
 cd ../../../../..
+
+mvn org.apache.maven.plugins:maven-eclipse-plugin:2.6:eclipse
