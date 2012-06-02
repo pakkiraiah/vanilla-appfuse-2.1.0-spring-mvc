@@ -8,3 +8,8 @@ mvn archetype:generate -B -DarchetypeGroupId=org.appfuse.archetypes -DarchetypeA
 # use maven 2.2.1 not 3.0.4 for full-source
 cd baz
 /opt/apache-maven-2.2.1/bin/mvn appfuse:full-source
+
+mvn appfuse:copy-templates
+cd src/test/resources/appfuse/model/
+sed -i -e "s/generateJoinColumnsAnnotation(property/generateJoinColumnsAnnotation(property,cfg/" Ejb3PropertyGetAnnotation.ftl 
+cd ../../../../..
