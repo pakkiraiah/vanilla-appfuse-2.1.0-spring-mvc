@@ -1,6 +1,6 @@
 package foo.bar.webapp.controller;
 
-import org.appfuse.Constants;
+import foo.bar.Constants;
 import org.compass.gps.CompassGps;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;

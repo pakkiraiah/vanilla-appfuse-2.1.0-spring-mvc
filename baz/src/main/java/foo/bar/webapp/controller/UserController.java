@@ -1,7 +1,7 @@
 package foo.bar.webapp.controller;
 
-import org.appfuse.Constants;
-import org.appfuse.service.UserManager;
+import foo.bar.Constants;
+import foo.bar.service.UserManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

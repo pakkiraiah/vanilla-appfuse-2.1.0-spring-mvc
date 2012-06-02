@@ -1,6 +1,6 @@
 package foo.bar.webapp.listener;
 
-import org.appfuse.model.User;
+import foo.bar.model.User;
 import org.springframework.security.authentication.AuthenticationTrustResolver;
 import org.springframework.security.authentication.AuthenticationTrustResolverImpl;
 import org.springframework.security.core.Authentication;

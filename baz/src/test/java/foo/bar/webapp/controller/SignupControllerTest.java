@@ -1,8 +1,8 @@
 package foo.bar.webapp.controller;
 
-import org.appfuse.Constants;
-import org.appfuse.model.Address;
-import org.appfuse.model.User;
+import foo.bar.Constants;
+import foo.bar.model.Address;
+import foo.bar.model.User;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mock.web.MockHttpServletRequest;

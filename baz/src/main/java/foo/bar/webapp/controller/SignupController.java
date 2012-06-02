@@ -1,10 +1,10 @@
 package foo.bar.webapp.controller;
 
 import org.apache.commons.lang.StringUtils;
-import org.appfuse.Constants;
-import org.appfuse.model.User;
-import org.appfuse.service.RoleManager;
-import org.appfuse.service.UserExistsException;
+import foo.bar.Constants;
+import foo.bar.model.User;
+import foo.bar.service.RoleManager;
+import foo.bar.service.UserExistsException;
 import foo.bar.webapp.util.RequestUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.MailException;

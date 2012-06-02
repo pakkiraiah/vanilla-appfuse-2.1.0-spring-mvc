@@ -2,8 +2,8 @@ package foo.bar.webapp.listener;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.appfuse.Constants;
-import org.appfuse.service.LookupManager;
+import foo.bar.Constants;
+import foo.bar.service.LookupManager;
 import org.compass.gps.CompassGps;
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;
 import org.springframework.context.ApplicationContext;
