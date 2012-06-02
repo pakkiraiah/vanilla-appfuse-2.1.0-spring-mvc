@@ -45,7 +45,7 @@ public class Quux extends BaseObject {
         return this.name;
     }
 
-    @Column(length = 64)
+    @Column(length = 2048)
     public String getDescription() {
         return this.description;
     }

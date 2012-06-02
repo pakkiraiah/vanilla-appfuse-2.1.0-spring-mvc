@@ -29,5 +29,15 @@
 
     <!-- Add new DAOs here -->
 
+    <!--QuuxManager-START-->
+    <bean id="quuxManager" class="foo.bar.service.impl.GenericManagerImpl">
+        <constructor-arg>
+            <bean class="foo.bar.dao.hibernate.GenericDaoHibernate">
+                <constructor-arg value="foo.bar.model.Quux"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+    <!--QuuxManager-END-->
+
     <!-- Add new Managers here -->
 </beans>

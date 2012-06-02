@@ -101,5 +101,9 @@
                 <arg key="user.passwordHint"/>
             </field>
         </form>
+        <!--Quux-START-->
+        <form name="quux">
+        </form>
+        <!--Quux-END-->
     </formset>
 </form-validation>

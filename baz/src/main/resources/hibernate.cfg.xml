@@ -8,5 +8,6 @@
     <session-factory>
         <mapping class="foo.bar.model.User"/>
         <mapping class="foo.bar.model.Role"/>
+        <mapping class="foo.bar.model.Quux"/>
     </session-factory>
 </hibernate-configuration>

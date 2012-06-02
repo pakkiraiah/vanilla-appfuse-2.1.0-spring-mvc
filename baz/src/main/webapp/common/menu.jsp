@@ -8,5 +8,8 @@
     <menu:displayMenu name="UserMenu"/>
     <menu:displayMenu name="AdminMenu"/>
     <menu:displayMenu name="Logout"/>
+    <!--Quux-START-->
+    <menu:displayMenu name="QuuxMenu"/>
+    <!--Quux-END-->
 </ul>
 </menu:useMenuDisplayer>

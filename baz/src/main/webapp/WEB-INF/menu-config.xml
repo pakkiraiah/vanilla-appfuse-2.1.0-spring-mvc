@@ -13,5 +13,9 @@
             <Item name="FileUpload" title="menu.selectFile" page="/fileupload"/>
         </Menu>
         <Menu name="Logout" title="user.logout" page="/logout" roles="ROLE_ADMIN,ROLE_USER"/>
+        <!--Quux-START-->
+        <Menu name="QuuxMenu" title="quuxList.title" page="/quuxs"/>
+        <!--Quux-END-->
     </Menus>
+
 </MenuConfig>
